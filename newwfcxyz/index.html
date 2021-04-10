@@ -3,7 +3,7 @@
 <head>
 <title>NewWFC</title>
 <link rel="icon" href="https://media.discordapp.net/attachments/796992906707730492/825012612391370812/image0.png" />
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <style>
 
 body {
@@ -48,13 +48,8 @@ a:active {
   text-decoration: underline;
   }
 
-    @media (min-width: 768px) {
-        .svg {
-          display: block;
-        }
-      }
-    @media (min-width: 992px) {
-        .svg {
+    @media (max-width: 800px) {
+        .hidden-mobile {
           display: none;
         }
       }
@@ -83,7 +78,8 @@ NewWFC DNS: 3.139.9.236
 NewWFC is a project for wii that revives the now dead Nintendo WFC. It is meant as a replacement for ALT-WFC, which has been discontinued for MKWii. The project is ran by <a href="https://www.youtube.com/channel/UCAfU_OTYVwAMYc6b5F0pQpA">ian47vr</a>.
 </p>
 
-<svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto; width: 100%;display:block;z-index:1;position:relative" width="3000" height="476" preserveAspectRatio="xMidYMid" viewBox="0 0 3000 476">
+<div class="hidden-mobile">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto; width: 100%;display:block;z-index:1;position:relative" width="3000" height="476" preserveAspectRatio="xMidYMid" viewBox="0 0 3000 476">
 <g transform="translate(1500,238) scale(1,-1) translate(-1500,-238)"><linearGradient id="lg-0.02304866618971846" x1="0" x2="1" y1="0" y2="0">
   <stop stop-color="#23272a" offset="0"></stop>
   <stop stop-color="#23272a" offset="1"></stop>
@@ -97,7 +93,7 @@ NewWFC is a project for wii that revives the now dead Nintendo WFC. It is meant 
   <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-7.5s" values="M0 0L 0 303.10739193944795Q 250 287.64926286098193  500 262.87126545286856T 1000 255.18493021683307T 1500 272.7377931175155T 2000 208.8838758829899T 2500 219.14923335167344T 3000 165.82862345910516L 3000 0 Z;M0 0L 0 331.4114073656899Q 250 345.5307964928434  500 307.4968034266791T 1000 293.59032293852067T 1500 248.51578034707836T 2000 188.75859135054776T 2500 214.03504668899222T 3000 203.97581032830303L 3000 0 Z;M0 0L 0 328.05913414378745Q 250 357.7101313382158  500 322.0994300600778T 1000 304.86725093366476T 1500 260.9270551983167T 2000 229.97535064578454T 2500 140.9241996307036T 3000 181.41020524169033L 3000 0 Z;M0 0L 0 303.10739193944795Q 250 287.64926286098193  500 262.87126545286856T 1000 255.18493021683307T 1500 272.7377931175155T 2000 208.8838758829899T 2500 219.14923335167344T 3000 165.82862345910516L 3000 0 Z"></animate>
 </path></g>
 </svg>
-
+	</div>
 </center>
 <div style="position: relative">
     <p style="position: fixed; bottom: 0; width:100%; text-align: center">
